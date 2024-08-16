@@ -1,2 +1,3 @@
-# React-Chat-Window
-Real-time chat application built with React and using Firebase
+# Lama Dev Chat App Starter template
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

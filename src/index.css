@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-image: url('bg.jpg');
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  border-radius: 15px;
+  height: 100vh;
+
+}
+.content{
+  width: 90vw;
+  height: 90vh;
+  background-color: rgba(34, 34, 34, 0.47);
+  backdrop-filter:blur(15px) saturate(150%);
+  border-radius: 15px;
+  display: flex;
+}
+
+.loading{
+  padding: 30px;
+  font-size: 35px;
+  border-radius: 10px;
+  background-color:rgba(18, 19, 41, 0.668) ;
+}
