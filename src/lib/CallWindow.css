@@ -1,0 +1,55 @@
+.callWindow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1000;
+  }
+  
+  .callHeader {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .callAvatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .videoStreams {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .localVideo,
+  .remoteVideo {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background: black;
+  }
+  
+  .endCallButton {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
